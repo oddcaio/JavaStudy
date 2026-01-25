@@ -8,7 +8,7 @@ public class Aula04Operadores {
         int resultado = numero01 / numero02;
         System.out.println(resultado);
 
-        // o resultado de operção entre dois valores inteiros o resultado sempre vai ser em numero inteiro.
+        // o resultado de operação entre dois valores inteiros o resultado sempre vai ser em numero inteiro.
         // ou seja, não apareceria "0,5" se dividisse "int 10 por int 20", precisa ser passado como double por cast ou declarando.
         
         // %
@@ -25,5 +25,15 @@ public class Aula04Operadores {
         System.out.println("isDezIgual20 " +isDezIgual20);
         System.out.println("isDezDiferenteDez " +isDezDiferenteDez);
 
+        // && (AND) || (OR) !
+        
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+        
+        System.out.println("isDentroDaLeiMaiorQueTrinta " +isDezDiferenteDez);
+        System.out.println("isDentroDaLeiMenorQueTrinta " +isDezDiferenteDez);
+            
     }
 }
