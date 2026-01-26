@@ -7,6 +7,14 @@ public class Aula06EstruturasDeRepeticao01 {
         while(count < 10){
             System.out.println(++count);
         }
+        count = 0;
+        do{
+            System.out.println("Dentro do do-while" + ++count);
+        } while (count < 10);
+
+        for(count=0;count < 10;i++){
+            System.out.println("For "+i);
+        }
     }
     
 }
