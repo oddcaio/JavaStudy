@@ -22,6 +22,6 @@ public class Aula05EstruturasCondicionais03 {
        //System.out.println(salario > 5000 ? mensagemDoar : mensagemNaoDoar);
 
        System.out.println(salario > 5000 ? "Eu vou doar 500 pro DevDojo" : "Ainda não tenho condições, mas vou ter!");
-       boolean possoDoar = salario > 5000 ? true : false; 
+       boolean possoDoar = salario > 5000 ? true : false;
     }
 }
