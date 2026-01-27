@@ -15,9 +15,6 @@ public class Aula07Arrays03 {
             System.out.println(num);
         }
 
-        int num = numeros3[0];
-        System.out.println(num);
-        num = numeros3[1];
-        System.out.println(num);
+
     }
 }
