@@ -11,6 +11,7 @@ public class Aula07Arrays03 {
         //     System.out.println(numeros3[i]);
         // }
 
+
         for(int num:numeros3){
             System.out.println(num);
         }
