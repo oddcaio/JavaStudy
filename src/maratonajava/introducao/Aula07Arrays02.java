@@ -15,7 +15,9 @@ public static void main(String[] args) {
     nomes [3] = "Hinata";
 
     for (int i = 0; i < nomes.length; i++){
-        System.out.println(nomes[i]);
+        System.out.println(nomes[i]); 
     }
+
+    nomes = new String [5];
 }
 }

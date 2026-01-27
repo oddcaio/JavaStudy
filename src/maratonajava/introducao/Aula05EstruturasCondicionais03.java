@@ -9,7 +9,7 @@ public class Aula05EstruturasCondicionais03 {
         String mensagemNaoDoar = "Ainda não tenho condições, mas vou ter!";
         
         // (condicao) ? verdadeiro : falso;
-        // String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
+        String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
         
         /*
         if (salario > 5000) {
