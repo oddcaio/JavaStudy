@@ -9,7 +9,7 @@ public class Aula06EstruturasDeRepeticao02 {
             numeroPar += 2;
         } while (numeroPar <= 100); // Até 100 para não rodar um milhão
 
-
+        // Forma de resolver do William
         System.out.println("Forma de resolver do William");
         for (int i = 0; i <= 100; i+=2){
             System.out.println(i);
