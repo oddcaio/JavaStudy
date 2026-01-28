@@ -1,6 +1,7 @@
 package maratonajava.javacore.Aintroducaoclasses.test;
 
 import maratonajava.javacore.Aintroducaoclasses.dominio.Carro;
+import maratonajava.javacore.Aintroducaoclasses.dominio.Professor;
 
 public class CarroTest {
 
@@ -20,6 +21,8 @@ public class CarroTest {
         carro2.nome = "Hrv";
         carro2.marca = "Honda";
         carro2.ano = 2022;
+
+        carro2=carro1;
 
         carro1.Imprimir();
         carro2.Imprimir();
